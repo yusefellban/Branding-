@@ -1,0 +1,162 @@
+
+
+.hero {
+  padding: 1rem;
+  width: 300px;
+  margin: 1rem auto;
+}
+.hero .heroContent {
+  width: 100%;
+  height: max-content;
+  padding: 0.2rem;
+  margin-top: 2rem;
+}
+
+.hero .heroContent {
+  h2 {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
+/* book mark */
+.heroContent mark {
+  background-color: #ff620096;
+  border-radius: 30px 0;
+  box-shadow: 0 5px 4px 7px #ff620096;
+}
+.heroContent mark:nth-of-type(2) {
+  box-shadow: 0 5px 4px 7px #d0ff00a8;
+  background-color: #d0ff00a8;
+}
+.heroContent mark:nth-of-type(3) {
+  box-shadow: 0 5px 4px 7px #00fff77a;
+  background-color: #00fff77a;
+}
+
+.hero .heroVedio {
+  width: 100%;
+  height: max-content;
+  border-radius: 30px;
+  margin-top: 1rem;
+}
+
+.heroBackground {
+  background-image: url("../imgs/dots.png");
+  background-size: cover;
+  width: 100px;
+  height: 20vh;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  opacity: 65%;
+}
+
+.defultLink{
+  margin-bottom: 0.5rem;
+}
+
+
+/* srcrooling section */
+
+
+#Scrolling {
+  height: 15vh;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+  margin: 3rem auto;
+}
+#Scrolling .scroll:hover{
+    color: black;
+}
+#Scrolling .scroll {
+  height: 100%;
+  width: 200px;
+  position: absolute;
+  animation: moveRightToLeft 20s infinite; /* Adds the animation */
+    left: calc(100% + 200px);
+
+}
+#Scrolling .scroll:nth-of-type(1){
+  animation-delay: 1s;
+
+}
+#Scrolling .scroll:nth-of-type(2){
+  animation-delay: 4s;
+
+}
+#Scrolling .scroll:nth-of-type(3){
+  animation-delay: 8s;
+
+}
+
+#Scrolling .scroll:nth-of-type(4){
+  animation-delay: 12s;
+
+}#Scrolling .scroll:nth-of-type(5){
+  animation-delay: 14s;
+
+}#Scrolling .scroll:nth-of-type(6){
+  animation-delay: 18s;
+
+}#Scrolling .scroll:nth-of-type(7){
+  animation-delay: 22s;
+
+}
+/* Animation to move the divs from right to left */
+@keyframes moveRightToLeft {
+
+    100%{
+          left:-500px ;
+
+    }
+}
+
+/* end of scroling section */
+
+
+
+
+
+
+
+
+
+/* tablet */
+@media (width>800px) {
+  .hero{
+    width: 750px;
+  }
+
+  #Scrolling {
+  width: 800px;
+}
+}
+/* PC */
+
+@media(width>1200px){
+    .hero{
+        display: flex;
+       margin: 0 auto;
+      width: 1000px;
+
+    }
+      .hero .heroContent {
+    
+         width: 800px;
+  }
+}
+
+/* for pc */
+@media(width>1350px){
+
+    .hero{
+      width: 1350px;
+      justify-content: space-between;
+    }
+    .hero .heroVedio {
+  width: 600px;
+  height: max-content;
+}
+}

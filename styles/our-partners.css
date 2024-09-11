@@ -1,0 +1,100 @@
+#Our-Partners > h2 {
+  margin: 4rem auto;
+  width: 100%;
+}
+#Our-Partners {
+  margin: 0 auto;
+  width: 300px;
+}
+.ourPartners {
+  width: 90%;
+  margin: 0 auto;
+}
+.partners {
+  height: max-content;
+  padding: 1rem;
+  background-color: var(--bgColor);
+  border-radius: 20px;
+  border: 2px solid black;
+  margin: 1rem;
+  h3 {
+    margin-top: 1.6rem;
+    margin-left: 0.5rem;
+  }
+}
+
+.partners:hover {
+  background-color: aquamarine;
+  box-shadow: 3px 3px 3px 3px rgb(18, 47, 38);
+  transition: 0.3s;
+}
+.partners .photoImge {
+  margin-top: 1rem;
+  width: 60px;
+  height: 8vh;
+  border-radius: 100%;
+  border: 2px solid black;
+  img {
+    border-radius: 100%;
+  }
+}
+.Googel img {
+  border-radius: 100%;
+  width: 100px;
+}
+
+@media (width>1000px) {
+#Our-Partners > h2 {
+  width: max-content;
+}
+  #Our-Partners {
+    width: max-content;
+  }
+  .ourPartners {
+    background-image: url("../imgs/dots.png");
+    width: 900px;
+    height: 50vh;
+    margin: 12rem auto;
+    background-size: auto;
+    position: relative;
+  }
+  .partners {
+    position: absolute;
+  }
+
+  .Googel img {
+    height: 70%;
+    width: 80%;
+  }
+
+  .NTE {
+    width: 300px;
+    top: -8rem;
+    left: 35rem;
+  }
+
+  .Company {
+    width: 300px;
+    top: 15rem;
+    left: 35rem;
+  }
+
+  .leftIT {
+    width: 500px;
+    top: 1rem;
+    left: 2rem;
+  }
+
+  .IHF {
+    width: 300px;
+    top: 17rem;
+    left: 13rem;
+  }
+
+  .Googel {
+    width: 150px;
+    top: 17rem;
+    left: 1rem;
+padding: 1.5rem;
+  }
+}
