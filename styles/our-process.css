@@ -1,12 +1,16 @@
 section {
-  width: 450px;
+  width: 300px;
   margin: 2rem auto;
 }
 .tittel{
   margin: 3rem auto;
-  width: max-content;
+  width: 300px;
   p{
     text-align: center;
+  }
+  h2{
+    width: 100%;
+    margin-bottom: 0.5rem;
   }
 }
 #hero {
@@ -33,6 +37,9 @@ section {
   padding: 20px;
   margin-top: 1rem;
   cursor: pointer;
+  h2{
+    width: 100%;
+  }
 }
 #hero .features .feature {
   padding: 20px;
@@ -57,9 +64,6 @@ section {
 
 /* Experiance Section */
 #expertise {
-  width: 400px;
-  margin: 0 auto;
-  padding: 1rem;
   h2{
     font-size: 20px;
   }
@@ -87,11 +91,10 @@ section {
 /* Earth section */
 #contain
 {
+  
     background-color: #f2f7ff;
-    display: flex;
 }
 #contain .text{
-    width: 500px;
     margin: 0 auto;
    align-content: center;
    padding: 2rem;
@@ -128,6 +131,9 @@ section {
     margin-right: 2rem;
   }
   /* earth section */
+  #contain{
+    display: flex;
+  }
   #contain .img{
     width: 600px;
 }

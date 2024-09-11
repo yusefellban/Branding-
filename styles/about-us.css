@@ -1,7 +1,6 @@
 section {
-  width: 400px;
+  width: 300px;
   margin: 4rem auto;
-  /* background-color: aqua; */
 }
 
 /* Hero section */
@@ -13,14 +12,6 @@ section {
   p {
     text-align: center;
     margin-bottom: 2rem;
-  }
-
-  .discuss {
-    display: inline-block;
-  }
-  .defultLink {
-    border-radius: 0.9rem;
-    display: inline-block;
   }
 }
 /* end of hero section */
@@ -81,9 +72,10 @@ section {
 }
 
 /* end of our team */
+
 /* Check us out */
 #cheeckUs {
-  height: 65vh;
+  height: max-content;
   p {
     text-align: center;
     margin: 1rem auto;
@@ -92,23 +84,22 @@ section {
     margin: 0 auto;
   }
   .defultLink {
-    width: 180px;
+    margin: 0 auto;
     display: block;
-    margin: auto;
-    border-radius: 9px;
   }
 }
 #cheeckUs .content {
-  width: 400px;
+  width: 100%;
   align-content: center;
-  margin-right: 3rem;
 }
 #cheeckUs .photos {
   position: relative;
   height: 55vh;
+  width: 300px;
+  margin: 0 auto;
   img {
     height: 13vh;
-    width: 130px;
+    width: 100px;
     border-radius: 10px;
   }
 }
@@ -122,6 +113,7 @@ section {
 
   position: absolute;
   top: 8rem;
+  left: -0.5rem;
 }
 #cheeckUs .photos .img2 {
   overflow: hidden;
@@ -129,6 +121,7 @@ section {
 
   position: absolute;
   top: 16rem;
+  left: -0.5rem;
 }
 #cheeckUs .photos .img3 {
   overflow: hidden;
@@ -136,9 +129,9 @@ section {
 
   position: absolute;
   top: 4rem;
-  left: 8.5rem;
+  left: 6.5rem;
   img {
-    height: 30vh;
+    height: 25vh;
   }
 }
 #cheeckUs .photos .img4 {
@@ -146,7 +139,7 @@ section {
   border-radius: 10px;
 
   position: absolute;
-  left: 17rem;
+  left: 13.5rem;
   top: 4rem;
 }
 #cheeckUs .photos .img5 {
@@ -154,7 +147,7 @@ section {
   border-radius: 10px;
 
   position: absolute;
-  left: 17rem;
+  left: 13.5rem;
   top: 12rem;
 }
 /* end of check us */
@@ -164,13 +157,17 @@ section {
 #market {
   text-align: center;
   padding-top: 70px;
-  h2 {
-    font-size: 16px;
+  h3 {
+    font-size: 20px;
+    width: 100%;
   }
+}
+#market .market-content > h2 {
+  width: 270px;
+  margin: 1.5rem auto;
 }
 
 #market .market-content {
-  /* max-width: 800px; */
   margin: 0 auto;
 }
 
@@ -212,10 +209,10 @@ section {
   }
 }
 #Blog .bCard {
-  height: 45vh;
+  height: 50vh;
   width: 300px;
   border-radius: 10px;
-  margin: 0 auto;
+  margin: 2rem auto;
   img {
     height: 60%;
     border-radius: 5px;
@@ -233,7 +230,7 @@ section {
 /* Media for pc and tablet */
 @media (width>800px) {
   section {
-    width: 1000px;
+    width: 700px;
   }
   /* hero */
   #hero {
@@ -258,13 +255,40 @@ section {
   #Team .team {
     display: flex;
   }
+
+  /* Markit section */
+  #market {
+    display: flex;
+  }
+  #market .market-content {
+    align-content: center;
+    h2 {
+      font-size: 20px;
+      margin-bottom: 2rem;
+    }
+    p {
+      text-align: left;
+    }
+  }
+}
+
+@media (width>1100px) {
+  section {
+    width: 1000px;
+  }
   /* check us */
   #cheeckUs {
     display: flex;
   }
+  #cheeckUs .content {
+    width: 40%;
+  }
+  #cheeckUs .photos {
+    margin: 0;
+  }
   #cheeckUs .photos img {
     height: 22vh;
-    width: 200px;
+    width: 180px;
     border-radius: 10px;
   }
 
@@ -289,22 +313,6 @@ section {
     left: 27rem;
     top: 16rem;
   }
-
-  /* Markit section */
-  #market {
-    display: flex;
-  }
-  #market .market-content {
-    align-content: center;
-    h2 {
-      font-size: 20px;
-      margin-bottom: 2rem;
-    }
-    p {
-      text-align: left;
-    }
-  }
-
   #Blog .blogCards {
     display: flex;
     margin-top: 2rem;

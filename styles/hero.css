@@ -106,14 +106,6 @@
 
 /* end of scroling section */
 
-
-
-
-
-
-
-
-
 /* tablet */
 @media (width>800px) {
 .heroBackground {
@@ -144,7 +136,6 @@
 
     }
       .hero .heroContent {
-    
          width: 800px;
   }
 }
@@ -156,6 +147,7 @@
       width: 1350px;
       justify-content: space-between;
     }
+    
     .hero .heroVedio {
   width: 600px;
   height: max-content;
