@@ -40,16 +40,7 @@
   margin-top: 1rem;
 }
 
-.heroBackground {
-  background-image: url("../imgs/dots.png");
-  background-size: cover;
-  width: 100px;
-  height: 20vh;
-  position: absolute;
-  top: 80px;
-  left: 0;
-  opacity: 65%;
-}
+
 
 .defultLink{
   margin-bottom: 0.5rem;
@@ -64,7 +55,7 @@
   display: flex;
   overflow: hidden;
   position: relative;
-  width: 300px;
+  width: 290px;
   margin: 3rem auto;
 }
 #Scrolling .scroll:hover{
@@ -125,6 +116,16 @@
 
 /* tablet */
 @media (width>800px) {
+.heroBackground {
+  background-image: url("../imgs/dots.png");
+  background-size: cover;
+  width: 100px;
+  height: 20vh;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  opacity: 65%;
+}
   .hero{
     width: 750px;
   }

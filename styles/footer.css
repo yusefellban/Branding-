@@ -1,5 +1,5 @@
 footer {
-  height: 80vh;
+  height: max-content;
   background-color: #0c1931;
   align-content: center;
   color: aliceblue;
@@ -100,6 +100,8 @@ footer .Footer .footerImge{
   }
   footer .Footer {
     display: block;
+    width: 300px;
+    overflow-x: hidden;
   }
   footer .Footer .foter {
     width: 80%;

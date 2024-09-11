@@ -3,18 +3,20 @@
   background-color: #0c1931;
   color: white;
   margin-bottom: 5rem;
-  width: 90%;
   margin: 3rem auto;
-  height: 30vh;
+  height: max-content;
   padding: 2rem;
+  width: 300px;
 
 }
 .needHelp{
   h3 {
     margin: 0 auto;
+    width: 90%;
   }
   p {
-    width: 350px;
+        width: 90%;
+
    text-align: center;
    margin: 2rem auto;
 }
@@ -29,6 +31,12 @@
 @media(width>900px){
       .needHelp{
        width: 600px;
+       h3{
+      width: max-content;
+       }
+       p{
+        width: 400px;
+       }
     }
 }
 /* more than pc */

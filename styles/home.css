@@ -22,9 +22,12 @@
 
 .tittel {
   margin: 3rem auto;
-  width: max-content;
+  width: 300px;
   p {
     text-align: center;
+  }
+  h2{
+    width: 100%;
   }
 }
 .img {
@@ -38,6 +41,15 @@
   .contentSection {
     width: 500px;
   }
+
+  /***/
+.tittel {
+  width: max-content;
+
+  h2{
+    width: max-content;
+  }
+}
 }
 @media (width>900px) {
   .contentSection {
