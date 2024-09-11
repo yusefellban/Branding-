@@ -1,6 +1,8 @@
 section {
   width: 300px;
   margin: 4rem auto;
+background-color: antiquewhite;
+  
 }
 
 /* Hero section */
@@ -22,22 +24,20 @@ section {
   justify-content: space-between;
 }
 #whoAreWe .content {
-  /* background-color: blue; */
+  padding-right: 1rem;
   width: 200px;
-
   h2 {
     margin-bottom: 1.5rem;
   }
 }
 #whoAreWe .letsWork {
-  /* background-color: aqua; */
   background-image: url("../imgs/dots.png");
   background-size: contain;
-  width: 200px;
-
+  padding: 0.6rem;
+overflow-x: hidden;
+height: max-content;
   h3 {
     width: 100px;
-    /* background-color: black; */
     margin: 5rem auto;
   }
 }
@@ -48,8 +48,8 @@ section {
   margin: 1rem auto;
 }
 #Team .developer {
-  height: 65vh;
-  width: 300px;
+  height: 60vh;
+  width: 260px;
   margin: 2rem auto;
   border-radius: 15px;
   cursor: pointer;
