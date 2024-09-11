@@ -2,13 +2,13 @@ section {
   width: 300px;
   margin: 2rem auto;
 }
-.tittel{
+.tittel {
   margin: 3rem auto;
   width: 300px;
-  p{
+  p {
     text-align: center;
   }
-  h2{
+  h2 {
     width: 100%;
     margin-bottom: 0.5rem;
   }
@@ -37,7 +37,7 @@ section {
   padding: 20px;
   margin-top: 1rem;
   cursor: pointer;
-  h2{
+  h2 {
     width: 100%;
   }
 }
@@ -64,16 +64,25 @@ section {
 
 /* Experiance Section */
 #expertise {
-  h2{
+  h2 {
     font-size: 20px;
   }
 }
 
 #expertise .expertise-img {
-  width: 300px;
-  margin-bottom: 1rem;
+  width: 250px;
+  display: block;
+  margin: 2rem auto;
 }
 #expertise .expertise-item {
+  h2 {
+    width: 200px;
+    margin: 0 auto;
+  }
+  ul {
+    width: 250px;
+    margin: 0 auto;
+  }
   li {
     list-style: disc;
   }
@@ -81,35 +90,36 @@ section {
     color: rgb(0, 255, 119);
   }
   p {
-    margin-top: 1rem;
+    width: 270px;
+    margin: 1rem auto;
   }
 }
 
 /* end of experian */
 
-
 /* Earth section */
-#contain
-{
-  
-    background-color: #f2f7ff;
+#contain {
+  background-color: #f2f7ff;
 }
-#contain .text{
-    margin: 0 auto;
-   align-content: center;
-   padding: 2rem;
-   h2{
-    margin: 2rem 0;
-   }
-   li {
+#contain .text {
+  margin: 0 auto;
+  align-content: center;
+  padding: 2rem;
+  h2 {
+    margin: 1rem auto;
+  }
+
+  li {
     list-style: disc;
   }
   ul li::marker {
     color: rgb(0, 255, 119);
   }
 }
-#contain .img{
-    margin: 0 auto;
+#contain .img {
+  margin: 0 auto;
+  display: block;
+  width: 250px;
 }
 /* end Earth section */
 /* Media */
@@ -131,19 +141,19 @@ section {
     margin-right: 2rem;
   }
   /* earth section */
-  #contain{
+  #contain {
     display: flex;
   }
-  #contain .img{
+  #contain .img {
     width: 600px;
-}
+  }
 }
 /* PC */
 @media (width>1100px) {
   section {
     width: 1050px;
   }
-    #expertise {
+  #expertise {
     width: 1000px;
   }
 }

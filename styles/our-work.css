@@ -17,26 +17,30 @@ section {
   margin: 0 auto;
   p {
     margin: 1rem 0;
+    align-content: center;
   }
   a {
     margin: 0.2rem;
     border-radius: 10px;
   }
+  h2{
+    margin: 0 auto;
+    font-size: 40px;
+  }
 }
 .hero .workImg {
   display: flex;
   align-items: center;
-  padding: 1rem;
   margin: 0 auto;
 }
 
 .hero .workImg .googel {
   width: 150px;
-  height: 20vh;
+  height: 15vh;
   border-radius: 10px;
   border: 2px solid black;
   align-content: center;
-  margin-left: 2rem;
+  margin-left: 1rem;
   img {
     width: 50%;
     height: 50%;
@@ -77,8 +81,8 @@ section {
 .contentOurWork .gridContentOne {
   margin: 2rem 0;
   display: grid;
-  grid-auto-columns: 150px;
-  grid-auto-rows: 260px;
+  grid-auto-columns: 140px;
+  grid-auto-rows: 300px;
   grid-template-areas:
     "card1 card2"
     "card3 card4"
@@ -179,8 +183,8 @@ overflow: hidden;
   display: grid;
   gap: 1rem;
   place-content: center;
-  grid-auto-columns: 160px;
-  grid-auto-rows: 200px;
+  grid-auto-columns: 140px;
+  grid-auto-rows: 240px;
   grid-template-areas:
     "c1 c2"
     "c3 c4"
@@ -197,6 +201,8 @@ overflow: hidden;
     h2{
       font-size:large;
       margin: 0.5rem 0;
+      background-color: blue;
+      width: 135px;
     }
 }
 #workeSection2 .container .card1 {

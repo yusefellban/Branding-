@@ -39,7 +39,7 @@ footer .Footer .fMedil {
 }
 footer .Footer .footerImge {
   width: 200px;
-  height: 26vh;
+  height: 27vh;
   margin: 1rem auto;
   transform-origin: center;
   animation: wrapAround 10s infinite; /*Animation effect*/
