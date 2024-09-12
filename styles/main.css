@@ -11,6 +11,7 @@ body {
     "header"
     "main"
     "footer";
+    /* overflow-x: hidden; */
 }
 
 header {
@@ -109,5 +110,3 @@ h6 {
   /* justify-content: space-between; */
 }
 
-
-  
