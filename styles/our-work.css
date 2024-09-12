@@ -23,7 +23,7 @@ section {
     margin: 0.2rem;
     border-radius: 10px;
   }
-  h2{
+  h2 {
     margin: 0 auto;
     font-size: 40px;
   }
@@ -57,10 +57,9 @@ section {
 .hero .workImg .googel:hover {
   box-shadow: 3px 3px 3px 3px black;
 }
-.hero .workImg .im img:hover{
-
-     transform: scale(1.2);
-   transition: 1s;
+.hero .workImg .im img:hover {
+  transform: scale(1.2);
+  transition: 1s;
 }
 
 .hero .workImg .im {
@@ -69,9 +68,8 @@ section {
   overflow: hidden;
   border-radius: 10px;
 
-  img{
-  border-radius: 8px;
-
+  img {
+    border-radius: 8px;
   }
 }
 /* End of hero  */
@@ -79,7 +77,6 @@ section {
 /* content Our Work */
 
 .contentOurWork .gridContentOne {
-  margin: 2rem 0;
   display: grid;
   grid-auto-columns: 130px;
   grid-auto-rows: 345px;
@@ -89,7 +86,7 @@ section {
     "card5 card6"
     "card7 card8"
     "card9 card10"
-    " . card11 ";
+    ". card11 ";
   place-content: center;
   gap: 1rem;
 }
@@ -102,25 +99,22 @@ section {
     margin-bottom: 1rem;
     width: 120px;
     font-size: 17px;
-
   }
 
   .cardImage {
     height: 50%;
     margin-bottom: 0.5rem;
-      border-radius: 8px;
- transition: transform 5s ease;
+    border-radius: 8px;
+    transition: transform 5s ease;
     img {
       border-radius: 8px;
     }
     overflow: hidden;
   }
-.cardImage:hover img{
-   transform: scale(1.2);
-   transition: 1s;
-
-}
-
+  .cardImage:hover img {
+    transform: scale(1.2);
+    transition: 1s;
+  }
 }
 
 .contentOurWork .gridContentOne .card1 {
@@ -158,7 +152,6 @@ section {
 }
 /* end of content Our Work */
 
-
 /* Eork section 2 */
 #workeSection2 {
   width: 350px;
@@ -167,16 +160,16 @@ section {
 
 .im {
   height: 50%;
-    border-radius: 15px;
+  border-radius: 15px;
 
   img {
     border-radius: 15px;
   }
-overflow: hidden;
+  overflow: hidden;
 }
-.im:hover img{
-   transform: scale(1.2); 
-   transition: 1s;
+.im:hover img {
+  transform: scale(1.2);
+  transition: 1s;
 }
 
 /*small screen */
@@ -191,19 +184,19 @@ overflow: hidden;
     "c3 c4"
     "c5 c6 "
     "c7 c8 "
-    " c9 c10 "
+    "c9 c10 "
     "c11 c12"
     "c13 c14"
     " c15 c16"
     "c17 c18"
-    " c19 c20"
+    "c19 c20"
     "c21 c22"
-    " c23 c24";
-    h2{
-      font-size:large;
-      margin: 0.5rem 0;
-      width: 120px;
-    }
+    "c23 c24";
+  h2 {
+    font-size: large;
+    margin: 0.5rem 0;
+    width: 120px;
+  }
 }
 #workeSection2 .container .card1 {
   grid-area: c1;
@@ -284,11 +277,8 @@ overflow: hidden;
 
 /* mobile media */
 
-
-
 /* media for pc  */
 @media (width>900px) {
- 
   section {
     width: 800px;
   }
@@ -305,24 +295,32 @@ overflow: hidden;
 
   /* Content Work */
   .contentOurWork .gridContentOne {
-    grid-template-columns: 300px;
-    grid-auto-rows: 300px;
+
+    grid-auto-columns: 280px;
+    grid-auto-rows: 370px;
     grid-template-areas:
       "card1 card2 card3"
+
       "card4 card4 card4"
       "card4 card4 card4"
+
       "card5 card6 card7"
+
       " card8 card8 card8"
       " card8 card8 card8"
+
       "card9 card10 card11";
     .cardImage {
       height: 70%;
     }
+    .smallLink {
+      margin: 0.2rem 0rem;
+    }
   }
   /* Work section 2 */
   #workeSection2 {
-  width: 1000px;
-}
+    width: 1000px;
+  }
   #workeSection2 .container {
     grid-template-areas:
       "c1 c2 c3 c4"
