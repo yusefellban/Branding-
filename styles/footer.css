@@ -103,8 +103,8 @@ footer .Footer .footerImge {
   }
   footer .Footer {
     display: block;
-    width: 300px;
-    overflow-x: hidden;
+    width: 290px;
+
   }
   footer .Footer .foter {
     width: 80%;
@@ -115,4 +115,10 @@ footer .Footer .footerImge {
       margin-right: auto;
     }
   }
+  footer .Footer .foter{
+    h2{
+      font-size: 22px;
+    }
+  }
 }
+
